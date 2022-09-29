@@ -36,6 +36,22 @@ h6{
 #aulas{
     left: 656px;
 }
+#carrinho{
+    top: 65px;
+    left: 1249px;
+    right: 167px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+#perfil{
+    top: 65px;
+    left: 1297px;
+    right: 119px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
 
 /*Fim header*/
 
@@ -53,7 +69,7 @@ h6{
     top: 285px;
     left: 88px;
 }
-#h2div1{
+/*#h2div1{
     position: absolute;
     font-family: 'Work Sans';
     font-style: normal;
@@ -80,7 +96,29 @@ h6{
     height: 72px;
     top: 772.5px;
     left: 411.5px;
-}
+}*/
 #div1{
+    background-image: url(box1img.jpg);
+    background-color: #ab0433;
+    background-blend-mode: darken, normal;
+    box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
     position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 149%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 1263px;
+    height: 280px;
+    top: 664px;
+    left: 88px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 175px;
+    padding-left: 324px;
+    padding-right: 324px;
+    
 }
