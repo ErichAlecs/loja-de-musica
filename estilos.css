@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#fundo{
+    align-items: center;
+    position: absolute;
+    width: 1440px;
+    height: 808px;
+}
+#logo{
+    position: absolute;
+    width: 255.33px;
+    height: 40px;
+    left: 88px;
+    top: 63px;
+}
+h6{
+    text-align: center;
+    color: #FCFCFC;
+    top: 72px;
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+}
+#guitars{
+    left: 383px;
+}
+#acessorios{
+    left: 504px;
+}
+#aulas{
+    left: 656px;
+}
+
+/*Fim header*/
+
+#paragrafo1{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    width: 579px;
+    height: 201px;
+    top: 285px;
+    left: 88px;
+}
+#h2div1{
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    top: 713.5px;
+    left: 411.5px;
+    width: 616px;
+    height: 55px;
+}
+#paragrafodiv1{
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 149%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 616px;
+    height: 72px;
+    top: 772.5px;
+    left: 411.5px;
+}
+#div1{
+    position: absolute;
+}
