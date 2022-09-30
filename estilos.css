@@ -3,11 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    position: absolute;
+    top: 0px;
+}
 #fundo{
-    align-items: center;
     position: absolute;
     width: 1440px;
     height: 808px;
+    left: -6.14%;
+    right: -6.14%;
+    top: 0px;
 }
 #logo{
     position: absolute;
@@ -121,11 +127,19 @@ h6{
     padding-left: 324px;
     padding-right: 324px;
 }
+hr{
+    position: relative;
+    background-color: #ab0433;
+    height: 10px;
+    width: 100px;
+    top: 1032px;
+    left: ;
+}
 #nvproduto{
-    position: absolute;
-    left: -6.14%;
-    right: -6.14%;
-    top: 1040px;
+    position:absolute;
+    left: -5.20%;
+    right: -6.76%;
+    top: 14.29%;
     bottom: 0%;
     font-family: 'Work Sans';
     font-style: normal;
@@ -136,23 +150,36 @@ h6{
     color: #505050;
 
 }
+#lista1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 32px;
+    width: 1263px;
+    height: 417px;
+    top: 1096px;
+    left: 88px;
+    height: 88px;
+}
+/*Produto 01*/
 #guita1{
-    position: absolute;
-    display:block;
-    margin-left:88px;
+    display:flexbox;
+    padding: 0px;
     margin-top: 158px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(88, 88, 88, 0.685);
     width: 399.67px;
     height: 417px;
     list-style: none;
-    top: 1122px;
+
 }
 #imgguita1{
     text-align: center;
     display: block;
     background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
     border-radius: 10px 10px 0px 0px;
+    margin-bottom: 12px;
 }
 #nome1{
     position: relative;
@@ -170,6 +197,7 @@ h6{
     flex-grow: 1;
     left:24px;
     top: 16px;
+    margin-bottom: 6px;
 }
 #valor1{
     position: relative;
@@ -191,13 +219,15 @@ h6{
     top: 16px;
 }
 #descpro1{
-    display: block;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 16px 24px 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
     gap: 6px;
-    width: 399.67px;
+    width: 351.67px;
     height: 42px;
     background: #FFFFFF;
     border-radius: 0px 0px 10px 10px;
@@ -206,27 +236,244 @@ h6{
     align-self: stretch;
     flex-grow: 0;
     color: #767676;
-    margin: 0px;
+    margin-top: 6px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
 }
 #cordisp1{
-    display: block;
+    position: relative;
+    display: flex;
     width: 114px;
     height: 18px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 150%;
+    line-height: 18px;
     text-align: right;
     color: #505050;
+    left: 30px;
+    border-radius: 5px 5px 5px rgb(107, 107, 107);
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+    gap: 10px;
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
+
+}
+/*Produto 02*/
+#guita2{
+    display:flexbox;
+    padding: 0px;
+    margin-left:32px;
+    margin-top: 158px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(88, 88, 88, 0.685);
+    width: 399.67px;
+    height: 417px;
+    list-style: none;
+}
+#imgguita2{
+    text-align: center;
+    display: block;
+    background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 12px;
+}
+#nome2{
+    position: relative;
+    display: inline;
+    width: 279.67px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #252525;
     flex: none;
     order: 0;
-    flex-grow: 0;
-    top: 8px;
-    left: 30px;
+    flex-grow: 1;
+    left:24px;
+    top: 16px;
+    margin-bottom: 6px;
 }
+#valor2{
+    position: relative;
+    display: inline;
+    width: 72px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #252525;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    right: 24px;
+    left: 230px ;
+    top: 16px;
+}
+#descpro2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+    gap: 6px;
+    width: 351.67px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #767676;
+    margin-top: 6px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+#cordisp2{
+    position: relative;
+    display: flex;
+    width: 114px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #505050;
+    left: 30px;
+    border-radius: 5px 5px 5px rgb(107, 107, 107);
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+    gap: 10px;
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
 
-h5{
-    
-    color: #ab0433;
+}
+/*Produto 03*/
+#guita3{
+    display:flexbox;
+    padding: 0px;
+    margin-left:32px;
+    margin-top: 158px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(88, 88, 88, 0.685);
+    width: 399.67px;
+    height: 417px;
+    list-style: none;
+}
+#imgguita3{
+    text-align: center;
+    display: block;
+    background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 12px;
+}
+#nome3{
+    position: relative;
+    display: inline;
+    width: 279.67px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #252525;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    left:24px;
+    top: 16px;
+    margin-bottom: 6px;
+}
+#valor3{
+    position: relative;
+    display: inline;
+    width: 72px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #252525;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    right: 24px;
+    left: 230px ;
+    top: 16px;
+}
+#descpro3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+    gap: 6px;
+    width: 351.67px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #767676;
+    margin-top: 6px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+#cordisp3{
+    position: relative;
+    display: flex;
+    width: 114px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #505050;
+    left: 30px;
+    border-radius: 5px 5px 5px rgb(107, 107, 107);
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+    gap: 10px;
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
+
 }
