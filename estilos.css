@@ -120,5 +120,113 @@ h6{
     padding-bottom: 175px;
     padding-left: 324px;
     padding-right: 324px;
+}
+#nvproduto{
+    position: absolute;
+    left: -6.14%;
+    right: -6.14%;
+    top: 1040px;
+    bottom: 0%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #505050;
+
+}
+#guita1{
+    position: absolute;
+    display:block;
+    margin-left:88px;
+    margin-top: 158px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(88, 88, 88, 0.685);
+    width: 399.67px;
+    height: 417px;
+    list-style: none;
+    top: 1122px;
+}
+#imgguita1{
+    text-align: center;
+    display: block;
+    background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+    border-radius: 10px 10px 0px 0px;
+}
+#nome1{
+    position: relative;
+    display: inline;
+    width: 279.67px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #252525;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    left:24px;
+    top: 16px;
+}
+#valor1{
+    position: relative;
+    display: inline;
+    width: 72px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #252525;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    right: 24px;
+    left: 230px ;
+    top: 16px;
+}
+#descpro1{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 24px 24px;
+    gap: 6px;
+    width: 399.67px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #767676;
+    margin: 0px;
+}
+#cordisp1{
+    display: block;
+    width: 114px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: right;
+    color: #505050;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    top: 8px;
+    left: 30px;
+}
+
+h5{
     
+    color: #ab0433;
 }
