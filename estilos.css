@@ -75,34 +75,7 @@ h6{
     top: 285px;
     left: 88px;
 }
-/*#h2div1{
-    position: absolute;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 120%;
-    text-align: center;
-    color: #FFFFFF;
-    top: 713.5px;
-    left: 411.5px;
-    width: 616px;
-    height: 55px;
-}
-#paragrafodiv1{
-    position: absolute;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 149%;
-    text-align: center;
-    color: #FFFFFF;
-    width: 616px;
-    height: 72px;
-    top: 772.5px;
-    left: 411.5px;
-}*/
+
 #div1{
     background-image: url(box1img.jpg);
     background-color: #ab0433;
@@ -127,18 +100,18 @@ h6{
     padding-left: 324px;
     padding-right: 324px;
 }
-hr{
+#hr1{
     position: relative;
     background-color: #ab0433;
-    height: 10px;
+    height: 5px;
     width: 100px;
     top: 1032px;
-    left: ;
+    left: 679.35px;
+    text-align: center;
 }
 #nvproduto{
     position:absolute;
-    left: -5.20%;
-    right: -6.76%;
+    left: 520px;
     top: 14.29%;
     bottom: 0%;
     font-family: 'Work Sans';
@@ -151,16 +124,14 @@ hr{
 
 }
 #lista1{
-    position: relative;
+    position: absolute;
     display: flex;
-    flex-direction: row;
     padding: 0px;
     gap: 32px;
-    width: 1263px;
-    height: 417px;
-    top: 1096px;
+    height: 481px;
+    top: 1032px;
     left: 88px;
-    height: 88px;
+    right: 88px;
 }
 /*Produto 01*/
 #guita1{
@@ -475,5 +446,357 @@ hr{
     gap: 10px;
     border: 1px solid #EAEAEA;
     border-radius: 20px;
+}
+/* LISTA DE PRODUTOS 02*/
 
+
+#prodpop{
+    position:absolute;
+    left: -5.20%;
+    right: -6.76%;
+    top: 96px;
+    bottom: 0%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #505050;
+
+}
+#hr2{
+    position: relative;
+    background-color: #ab0433;
+    height: 5px;
+    width: 100px;
+    top: 1689px;
+    left: 679.35px;
+    text-align: center;
+}
+#lista2{
+    display: flex;
+    padding: 88px;
+    gap: 31.67px;
+    position: absolute;
+    align-items: center;
+    height: 665px;
+    left: 0px;
+    right: 0px;
+    top: 1682px;
+    background: #ECECEC;
+}
+/*Produto 01*/
+#cabo1{
+    display:flexbox;
+    padding: 0px;
+    margin-top: 158px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(88, 88, 88, 0.685);
+    width: 399.67px;
+    height: 417px;
+    list-style: none;
+    background-color: #FFFFFF;
+}
+#imgcabo1{
+    text-align: center;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 12px;
+}
+#nomecabo1{
+    position: relative;
+    display: inline;
+    width: 279.67px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #252525;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    left:24px;
+    top: 16px;
+    margin-bottom: 6px;
+}
+#valorcabo1{
+    position: relative;
+    display: inline;
+    width: 72px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #252525;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    right: 24px;
+    left: 230px ;
+    top: 16px;
+}
+#descprocabo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+    top:45px;
+    gap: 6px;
+    width: 351.67px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #767676;
+    margin-top: 6px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+#cordispcabo1{
+    position: relative;
+    display: flex;
+    width: 114px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #505050;
+    left: 30px;
+    border-radius: 5px 5px 5px rgb(107, 107, 107);
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+    gap: 10px;
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
+
+}
+/*Produto 02*/
+#cabo2{
+    display:flexbox;
+    padding: 0px;
+    margin-left:32px;
+    margin-top: 158px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(88, 88, 88, 0.685);
+    width: 399.67px;
+    height: 417px;
+    list-style: none;
+    background-color: #FFFFFF;
+}
+#imgcabo2{
+    text-align: center;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 12px;
+}
+#nomecabo2{
+    position: relative;
+    display: inline;
+    width: 279.67px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #252525;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    left:24px;
+    top: 16px;
+    margin-bottom: 6px;
+}
+#valorcabo2{
+    position: relative;
+    display: inline;
+    width: 72px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #252525;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    right: 24px;
+    left: 230px ;
+    top: 16px;
+}
+#descprocabo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+    gap: 6px;
+    width: 351.67px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #767676;
+    margin-top: 6px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+#cordispcabo2{
+    position: relative;
+    display: flex;
+    width: 114px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #505050;
+    left: 30px;
+    border-radius: 5px 5px 5px rgb(107, 107, 107);
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+    gap: 10px;
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
+
+}
+/*Produto 03*/
+#mp3{
+    display:flexbox;
+    padding: 0px;
+    margin-left:32px;
+    margin-top: 158px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(88, 88, 88, 0.685);
+    width: 399.67px;
+    height: 417px;
+    list-style: none;
+    background-color: #FFFFFF;
+}
+#imgmp3{
+    text-align: center;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 12px;
+}
+#nomemp3{
+    position: relative;
+    display: inline;
+    width: 279.67px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #252525;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    left:24px;
+    top: 16px;
+    margin-bottom: 6px;
+}
+#valormp3{
+    position: relative;
+    display: inline;
+    width: 72px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #252525;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    right: 24px;
+    left: 230px ;
+    top: 16px;
+}
+#descpromp3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+    gap: 6px;
+    width: 351.67px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #767676;
+    margin-top: 6px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+#cordispmp3{
+    position: relative;
+    display: flex;
+    width: 114px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #505050;
+    left: 30px;
+    border-radius: 5px 5px 5px rgb(107, 107, 107);
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+    gap: 10px;
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
 }
