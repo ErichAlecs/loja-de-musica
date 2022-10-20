@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 
 * {
@@ -533,7 +534,7 @@ header {
 
 #lista2 {
     display: flex;
-    padding-left: 90px;
+    padding-left: 138px;
     gap: 31.67px;
     position: absolute;
     align-items: center;
